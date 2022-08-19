@@ -1,8 +1,4 @@
-html {
-  height: 100%;
-  width: 100%;
-  overflow-x: hidden;
-}
+
 
 
 body { 
@@ -11,6 +7,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    overflow-x: hidden !important;
   }
 
 
@@ -26,6 +23,7 @@ body {
     opacity: 100%;
     height: 4px;
     box-shadow: 0 0 10px 5px #5D5C55; 
+    width: auto;
   
   }
 
@@ -40,8 +38,9 @@ body {
     border-radius: 5px;
     border: solid 3px #f0f4f5ea;
     min-width: 120px;
-    box-shadow: 0 0 10px 5px #5D5C55
-    
+    box-shadow: 0 0 10px 5px #5D5C55;
+    margin-left: 5rem;
+    margin-right: 5rem;
   }
 
 
@@ -54,13 +53,16 @@ body {
     background-color: #5D5C55;
 }
 
+@media only screen 
+and (max-width : 992px) {
+  .dropdown-list{
+    position: absolute;
+    z-index: 30;
+    background-color: #323232fa;
+    display: ;
+
+}
 
 /* --------------------------------------------------------------------------------------Video & Audio */   
 
-.media {
-  margin: 110px 50px 45px 50px;
-}
 
-.vimeo {
-  margin-bottom: 50px;
-}
