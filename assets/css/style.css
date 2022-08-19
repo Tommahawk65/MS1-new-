@@ -60,9 +60,22 @@ and (max-width : 992px) {
     z-index: 30;
     background-color: #323232fa;
     display: ;
-
+  }
 }
-
 /* --------------------------------------------------------------------------------------Video & Audio */   
 
 
+/* --------------------------------------------------------------------------------------Tour Page*/ 
+
+.tour-info {
+  text-align: center;
+  margin-top: 110px;
+}
+
+.ticket-row {
+  margin-bottom: 30px;
+}
+
+.date-box, .city-box {
+  padding-top: 15px;
+}
