@@ -40,6 +40,7 @@ body {
     border-radius: 5px;
     border: solid 3px #f0f4f5ea;
     min-width: 120px;
+    box-shadow: 0 0 10px 5px #5D5C55
     
   }
 
@@ -51,4 +52,15 @@ body {
   .navbar-nav .nav-button .nav-link:hover {
  
     background-color: #5D5C55;
+}
+
+
+/* --------------------------------------------------------------------------------------Video & Audio */   
+
+.media {
+  margin: 110px 50px 45px 50px;
+}
+
+.vimeo {
+  margin-bottom: 50px;
 }
