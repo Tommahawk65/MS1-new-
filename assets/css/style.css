@@ -79,3 +79,19 @@ and (max-width : 992px) {
 .date-box, .city-box {
   padding-top: 15px;
 }
+
+
+
+/* --------------------------------------------------------------------------------------Tour Page*/ 
+
+.contact-form {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  
+}
+
+
+.email, .password {
+  padding-left: 25%;
+  width: 80%;
+}
