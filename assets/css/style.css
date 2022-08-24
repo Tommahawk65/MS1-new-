@@ -41,10 +41,10 @@ body {
   
     border-radius: 5px;
     border: solid 3px #f0f4f5ea;
-    min-width: 120px;
+    width: 83px;
     box-shadow: 0 0 10px 5px #5D5C55;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 3.3rem;
+    margin-right: 3.3rem;
   }
 
 
@@ -58,7 +58,7 @@ body {
 }
 
 @media only screen 
-and (max-width : 992px) {
+and (max-width : 991px) {
   .dropdown-list{
     position: absolute;
     z-index: 30;
@@ -66,6 +66,23 @@ and (max-width : 992px) {
     display: ;
   }
 }
+
+@media only screen 
+and (min-width : 1220px) {
+  .nav-button{
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+}
+
+@media only screen 
+and (min-width : 1440px) {
+  .nav-button{
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+}
+
 /* --------------------------------------------------------------------------------------Video & Audio */   
 
 
@@ -104,7 +121,7 @@ and (max-width : 992px) {
 
 
 @media only screen 
-and (max-width : 992px) {
+and (max-width : 991px) {
   .footer-position {
     text-align: center!important;
   }
