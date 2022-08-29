@@ -183,8 +183,11 @@ and (min-width : 1440px) {
   width: 80%;
 }
 
+/* --------------------------------------------------------------------------------------Footer*/ 
 
-
+a, a:hover {
+  color: transparent;
+}
 
 @media only screen 
 and (max-width : 991px) {
