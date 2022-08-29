@@ -11,6 +11,8 @@ body {
     -o-background-size: cover;
     background-size: cover;
     overflow-x: hidden !important;
+    font-family: 'Questrial', sans-serif;
+
    
   }
 
@@ -42,6 +44,7 @@ body {
     border-radius: 5px;
     border: solid 3px #f0f4f5ea;
     width: 83px;
+    height: 100%;
     box-shadow: 0 0 10px 5px #5D5C55;
     margin-left: 3.3rem;
     margin-right: 3.3rem;
@@ -55,6 +58,40 @@ body {
   .navbar-nav .nav-button .nav-link:hover {
  
     background-color: #5D5C55;
+}
+
+/* --------------------------------------------------------------------------------------Band Pictures */   
+
+.band-images{
+  text-align: center;
+  padding: 80px 0px 40px 0px;
+  height: 100%;
+}
+
+.band-text{
+  padding-left: 7px;
+}
+
+.single-pics {
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.pics-no-border {
+  box-shadow: 0 0 20px 10px #5D5C55;
+  border-radius: 50%;
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  
+}
+
+.about, .music {
+  padding: 20px;
+  border-radius: 5px;
+  border: solid 5px #f0f4f5ea;
+  box-shadow: 0 0 10px 5px #5D5C55;
+  margin-left: px;
 }
 
 @media only screen 
@@ -73,6 +110,29 @@ and (min-width : 1220px) {
     margin-left: 5rem;
     margin-right: 5rem;
   }
+
+}
+
+@media only screen 
+and (max-width : 1220px) {
+ 
+
+  .pics-no-border {
+    width: 250px;
+    height: 250px;
+    
+  }
+}
+
+@media only screen 
+and (max-width : 991px) {
+ 
+
+  .pics-no-border {
+    width: 280px;
+    height: 280px;
+    
+  }
 }
 
 @media only screen 
@@ -83,6 +143,12 @@ and (min-width : 1440px) {
   }
 }
 
+.banner {
+  width:100%;
+  border: solid 3px #f0f4f5ea;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 5px #5D5C55;
+}
 /* --------------------------------------------------------------------------------------Video & Audio */   
 
 
