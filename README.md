@@ -6,6 +6,19 @@
 
 ## UX
 
+### User Stories
+
+- As a user visiting the site for the first time:
+  - I want to be able to quickly understand the purpose of the site.
+  - I want to click the navigation links to be taken to the correct section and also back to home for a better user experience.
+  - I want the page to be in a predictable layout so that I can navigate it easily.  
+  - I want to be able to hear a selection of the bands music.  
+  - I want the websites design to match with the bands.
+  - I want to be able to view information on tours and upcoming events.
+  - I want to have a way of contacting the site owner/band for any specific questions/queries.
+  - I want to have be able to view the page on multiple devices and have it scale properly.
+
+
 ### Project Goals
 
 #### External user’s goal:
@@ -121,9 +134,62 @@ I chose a modern minimalistic style to reflect the music of the band and to appe
 
 ## Testing 
 
-I have tested all elements of this website to ensure all the features work correctly.
+### User Stories Testing
 
-I have spend a lot of time making sure this website is fully responsive on a number of devices.
+- As a user visiting the site for the first time:
+
+  1. I want to be able to quickly understand the purpose of the site.
+
+      On loading the page you are immediately shown the name of the band in the navbar and the band members images.
+
+  2. I want to click the navigation links to be taken to the correct section and also back to home for a better user experience.
+
+      Navbar clearly shows all available paged and allows the user to return to the homepage.
+      ![Navbar](/assets/images/README-Images/user-story-navbar.png)
+
+  3. I want the page to be in a predictable layout so that I can navigate it easily.
+
+      As shown in other screenshots, the site has a very simple layout that is easy to navigate with a clear navbar layout.
+
+  4. I want to be able to hear a selection of the bands music.  
+
+      The music page contains an embedded video and music player to allow the user to access this while staying to the site.
+      ![Music Page](/assets/images/Wireframes/desktop-2.png)
+
+  5. I want the websites design to match with the bands.
+
+      All images and fonts are used by the band in their promo material. I decided to give all my boxes the glow effect that features on their album cover, the black and white aesthetic also matches this.
+
+  6. I want to be able to view information on tours and upcoming events.
+
+      The Tour Page gives all this information, on the commercial version the buy now links would direct the user to the appropriate retailer.
+      ![Tour Page](/assets/images/Wireframes/desktop-3.png)
+
+  7. I want to have a way of contacting the site owner/band for any specific questions/queries.
+
+      The Contact page allows users to directly message the site owner. The form has validation functionality to ensure the correct information is given. 
+      ![Contact Page](/assets/images/Wireframes/desktop-4.png)
+
+  8. I want to have be able to view the page on multiple devices and have it scale properly.
+
+      The site has been designed and tested to scale well on all devices. Both Chrome dev tools and manual testing were used to check the performed as intended.
+
+
+### Manual Testing
+
+- All internal links and buttons checked
+
+- Media checked to ensure it plays when requested
+
+- Chrome devtools used to check on multiple device sizes
+
+- Tested on Chrome and Safari browsers
+
+- Tested on Macbook Pro, Macbook Air, Iphone 13 pro, Ipad, Samsung Note2 to ensure compatibility.
+
+### Lighthouse Testing
+
+
 
 ### Validator Testing 
 
