@@ -1,8 +1,9 @@
-html{
+
+/* --------------------------------------------------------------------------------------Global Settings */  
+html {
   width: 100%;
   overflow-x: hidden;
 }
-
 
 body { 
     background: url("../images/background-image.jpeg") no-repeat center center fixed; 
@@ -12,87 +13,45 @@ body {
     background-size: cover;
     overflow-x: hidden !important;
     font-family: 'Questrial', sans-serif;
-
-   
   }
 
+/* --------------------------------------------------------------------------------------Nav Bar */      
 
-  /* --------------------------------------------------------------------------------------Nav Bar */      
-
-  nav {
-    background-color: transparent;
-    
+nav {
+  background-color: transparent;  
   }
 
-  hr {
-    background-color:#F0F4F5;
-    opacity: 100%;
-    height: 4px;
-    box-shadow: 0 0 10px 5px #5D5C55; 
-    width: auto;
-  
+hr {
+  background-color:#F0F4F5;
+  opacity: 100%;
+  height: 4px;
+  box-shadow: 0 0 10px 5px #5D5C55; 
+  width: auto;
   }
 
-  .band-logo {
-    max-width: 180px;
-    
-
-  }
-  
-  .nav-button {
-  
-    border-radius: 5px;
-    border: solid 3px #f0f4f5ea;
-    width: 83px;
-    height: 100%;
-    box-shadow: 0 0 10px 5px #5D5C55;
-    margin-left: 3.3rem;
-    margin-right: 3.3rem;
+.band-logo {
+  max-width: 180px;
   }
 
-
-  .active{
-    text-decoration: underline;
-  }
-
-  .navbar-nav .nav-button .nav-link:hover {
- 
-    background-color: #5D5C55;
-}
-
-/* --------------------------------------------------------------------------------------Band Pictures */   
-
-.band-images{
-  text-align: center;
-  padding: 80px 0px 40px 0px;
-  height: 100%;
-}
-
-.band-text{
-  padding-left: 7px;
-}
-
-.single-pics {
-  padding: 0;
-  margin-bottom: 40px;
-}
-
-.pics-no-border {
-  box-shadow: 0 0 20px 10px #5D5C55;
-  border-radius: 50%;
-  object-fit: cover;
-  width: 300px;
-  height: 300px;
-  
-}
-
-.about, .music {
-  padding: 20px;
+.nav-button {
   border-radius: 5px;
-  border: solid 5px #f0f4f5ea;
+  border: solid 3px #f0f4f5ea;
+  width: 83px;
+  height: 100%;
   box-shadow: 0 0 10px 5px #5D5C55;
-  margin-left: px;
-}
+  margin-left: 3.3rem;
+  margin-right: 3.3rem;
+  }
+
+.active{
+  text-decoration: underline;
+  }
+
+.navbar-nav .nav-button .nav-link:hover {
+  background-color: #5D5C55;
+  }
+
+/* --------------------------------------------------------------------------------------Media Queries for Mobile Navbar  */  
 
 @media only screen 
 and (max-width : 991px) {
@@ -110,29 +69,6 @@ and (min-width : 1220px) {
     margin-left: 5rem;
     margin-right: 5rem;
   }
-
-}
-
-@media only screen 
-and (max-width : 1220px) {
- 
-
-  .pics-no-border {
-    width: 250px;
-    height: 250px;
-    
-  }
-}
-
-@media only screen 
-and (max-width : 991px) {
- 
-
-  .pics-no-border {
-    width: 280px;
-    height: 280px;
-    
-  }
 }
 
 @media only screen 
@@ -143,26 +79,76 @@ and (min-width : 1440px) {
   }
 }
 
+/* --------------------------------------------------------------------------------------Homepage Band Pictures */   
+
+.band-images {
+  text-align: center;
+  padding: 80px 0px 40px 0px;
+  height: 100%;
+  }
+
+.band-text {
+  padding-left: 7px;
+  }
+
+.single-pics {
+  padding: 0;
+  margin-bottom: 40px;
+  }
+
+.pics-no-border {
+  box-shadow: 0 0 20px 10px #5D5C55;
+  border-radius: 50%;
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  }
+
+/* --------------------------------------------------------------------------------------Media Queries for Band Images To Prevent Overlap  */ 
+
+@media only screen 
+and (max-width : 1220px) {
+  .pics-no-border {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media only screen 
+and (max-width : 991px) {
+  .pics-no-border {
+    width: 280px;
+    height: 280px;
+  }
+}
+  
+/* --------------------------------------------------------------------------------------Homepage Band About Text */   
+
+.about, .music {
+  padding: 20px;
+  border-radius: 5px;
+  border: solid 5px #f0f4f5ea;
+  box-shadow: 0 0 10px 5px #5D5C55;
+  margin-left: px;
+}
+
+/* --------------------------------------------------------------------------------------Homepage Band Banner */   
+
 .banner {
   width:100%;
   border: solid 3px #f0f4f5ea;
   border-radius: 5px;
   box-shadow: 0 0 10px 5px #5D5C55;
 }
-/* --------------------------------------------------------------------------------------Video & Audio */   
+
+/* --------------------------------------------------------------------------------------Music Page Vimeo Player */   
 
 .vimeo {
   height: 12vh!important;
   padding: 0 40px 0 40px;
 }
 
-.new-album-promo {
-  width:100%;
-  box-shadow: 0 0 10px 5px #5D5C55;
-}
-
-
-
+/* --------------------------------------------------------------------------------------Media Queries for Music Page Vimeo Player For Correct Sizing On All Screen Sizes */   
 @media only screen 
 and (min-width : 300px) {
   .vimeo{
@@ -210,6 +196,13 @@ and (min-width : 991px) {
       }
     } 
 
+/* --------------------------------------------------------------------------------------Music Page New Music Banner */  
+
+.new-album-promo {
+  width:100%;
+  box-shadow: 0 0 10px 5px #5D5C55;
+}
+
 /* --------------------------------------------------------------------------------------Tour Page*/ 
 
 .tour-info {
@@ -225,49 +218,40 @@ and (min-width : 991px) {
   padding-top: 15px;
 }
 
-
-
-/* --------------------------------------------------------------------------------------Tour Page*/ 
+/* --------------------------------------------------------------------------------------Contact Page*/ 
 
 .contact-form {
   margin-left: 5rem;
   margin-right: 5rem;
-  
 }
 
-
 .email, .password {
-  
   width: 80%;
 }
 
+/* --------------------------------------------------------------------------------------Media Queries For Contact Form To Give Proper Sizing On All Screens*/ 
 
-
-  @media only screen 
-  and (max-width : 700px) {
-    .email, .password {
-      padding-left: 0px;
-      width: 100%;
-    }
+@media only screen 
+and (max-width : 700px) {
+  .email, .password {
+    padding-left: 0px;
+    width: 100%;
   }
+}
 
-  @media only screen 
-  and (min-width : 991px) {
-    .contact-text {
-     
-      width: 80%;
-    
-      
-    }
+@media only screen 
+and (min-width : 991px) {
+  .contact-text {
+    width: 80%;
   }
+}
 
-  @media only screen 
-  and (min-width : 991px) {
-    .email, .password {
-      
-      width: 40%;
-    }
+@media only screen 
+and (min-width : 991px) {
+  .email, .password {
+    width: 40%;
   }
+}
 
 /* --------------------------------------------------------------------------------------Footer*/ 
 
@@ -275,6 +259,7 @@ a, a:hover {
   color: transparent;
 }
 
+/* --------------------------------------------------------------------------------------Centered Footer On Small Screens*/ 
 @media only screen 
 and (max-width : 991px) {
   .footer-position {
