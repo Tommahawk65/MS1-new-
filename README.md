@@ -60,7 +60,7 @@ I chose a modern minimalistic style to reflect the music of the band and to appe
  
 #### Frameworks & Extensions 
  
-- [Bootstrap](https://getbootstrap.com/) – Bootstrap is a web framework that focuses on simplifying the development of informative web pages. 
+- [Bootstrap v5.2](https://getbootstrap.com/) – Bootstrap is a web framework that focuses on simplifying the development of informative web pages. 
 
 - [Font Awesome](https://fontawesome.com/v4.7.0/) - Font Awesome icons were used for the footer social links for the website. 
 
