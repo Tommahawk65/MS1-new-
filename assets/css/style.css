@@ -7,9 +7,6 @@ html {
 
 body { 
     background: url("../images/background-image.jpeg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     overflow-x: hidden !important;
     font-family: 'Questrial', sans-serif;
@@ -59,7 +56,6 @@ and (max-width : 991px) {
     position: absolute;
     z-index: 30;
     background-color: #323232fa;
-    display: ;
   }
 }
 
@@ -129,7 +125,6 @@ and (max-width : 991px) {
   border-radius: 5px;
   border: solid 5px #f0f4f5ea;
   box-shadow: 0 0 10px 5px #5D5C55;
-  margin-left: px;
 }
 
 /* --------------------------------------------------------------------------------------Homepage Band Banner */   
