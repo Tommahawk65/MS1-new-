@@ -156,8 +156,9 @@ and (min-width : 1440px) {
   padding: 0 40px 0 40px;
 }
 
-.spotify {
-  
+.new-album-promo {
+  width:100%;
+  box-shadow: 0 0 10px 5px #5D5C55;
 }
 
 
