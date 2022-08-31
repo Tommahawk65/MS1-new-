@@ -189,7 +189,29 @@ I chose a modern minimalistic style to reflect the music of the band and to appe
 
 ### Lighthouse Testing
 
+Passed tests with a green score. Note - one test did give a yellow score for best practices which is explained below.
 
+#### Desktop
+
+![Desktop Lighthouse Test 1](/assets/images/Lighthouse/lighthouse-desktop1.png)
+
+![Desktop Lighthouse Test 2](/assets/images/Lighthouse/lighthouse-desktop2.png)
+
+Note - The lower score for best practices here is for the banner image resolution, however on bigger screens I found the quality was degraded when lowered, so for now this has been ignored.
+
+![Desktop Lighthouse Test 3](/assets/images/Lighthouse/lighthouse-desktop3.png)
+
+![Desktop Lighthouse Test 4](/assets/images/Lighthouse/lighthouse-desktop4.png)
+
+#### Mobile
+
+![Mobile Lighthouse Test 1](/assets/images/Lighthouse/lighthouse-mobile1.png)
+
+![Mobile Lighthouse Test 2](/assets/images/Lighthouse/lighthouse-mobile2.png)
+
+![Mobile Lighthouse Test 3](/assets/images/Lighthouse/lighthouse-mobile3.png)
+
+![Mobile Lighthouse Test 4](/assets/images/Lighthouse/lighthouse-mobile4.png)
 
 ### Validator Testing 
 
