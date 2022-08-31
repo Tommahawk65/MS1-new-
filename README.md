@@ -23,31 +23,31 @@ I chose a modern minimalistic style to reflect the music of the band and to appe
 
 #### Home Page
 
-![Alt text](/assets/images/page1-full.png?raw=true "Home Page")
+![Alt text](/assets/images/Wireframes/desktop-1.png "Home Page")
 
 #### Music Page
-![Alt text](/assets/images/page2-full.png?raw=true "Music Page")
+![Alt text](/assets/images/Wireframes/desktop-2.png "Music Page")
 
 #### Tour Dates Page
-![Alt text](/assets/images/page3-full.png?raw=true "Tour Dates Page")
+![Alt text](/assets/images/Wireframes/desktop-3.png "Tour Dates Page")
 
 #### Contact Page
-![Alt text](/assets/images/page4-full.png?raw=true "Contact Page")
+![Alt text](/assets/images/Wireframes/desktop-4.png "Contact Page")
 
 ### Wireframes Mobile View
 
 #### Home Page
 
-![Alt text](/assets/images/page1-mobile.png?raw=true "Home Page")
+![Alt text](/assets/images/Wireframes/mobile-1.png "Home Page")
 
 #### Music Page
-![Alt text](/assets/images/page2-mobile.png?raw=true "Music Page")
+![Alt text](/assets/images/Wireframes/mobile-2.png "Music Page")
 
 #### Tour Dates Page
-![Alt text](/assets/images/page3-mobile.png?raw=true "Tour Dates Page")
+![Alt text](/assets/images/Wireframes/mobile-3.png "Tour Dates Page")
 
 #### Contact Page
-![Alt text](/assets/images/page4-mobile.png?raw=true "Contact Page")
+![Alt text](/assets/images/Wireframes/mobile-4.png "Contact Page")
 ## Features 
 
 ### Existing Features
