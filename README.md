@@ -48,7 +48,37 @@ I chose a modern minimalistic style to reflect the music of the band and to appe
 
 #### Contact Page
 ![Alt text](/assets/images/Wireframes/mobile-4.png "Contact Page")
+
 ## Features 
+
+### Technologies
+
+#### Programming languages 
+ 
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML) - the project used HTML to define structure and layout of the web page. 
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS) - the project used CSS style sheets to specify style of the web document elements; 
+ 
+#### Frameworks & Extensions 
+ 
+- [Bootstrap](https://getbootstrap.com/) – Bootstrap is a web framework that focuses on simplifying the development of informative web pages. 
+
+- [Font Awesome](https://fontawesome.com/v4.7.0/) - Font Awesome icons were used for the footer social links for the website. 
+
+#### **Tools**
+
+- [GitHub](https://github.com/) - GitHub is a global company that provides hosting for software development version control using Git. 
+
+- [Gitpod](https://gitpod.io/workspaces/) - One-click ready-to-code development environments for GitHub. 
+
+- [Google fonts](https://fonts.google.com/) - Used to compare and choose fonts. 
+
+- [Figma](https://www.figma.com/) - Figma is used to create the mockup designs for the project.
+
+- [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/open) - Used to detect problems and test responsiveness.
+
+- [W3C Markup Validation Service](https://validator.w3.org/) - The W3C Markup Validation Service is used to check whether there were any errors in the HTML5 code. 
+
+- [W3C CSS validator](https://jigsaw.w3.org/css-validator/) - The W3C CSS validator is used to check whether there were any errors in the CSS3 code.
 
 ### Existing Features
 
@@ -104,7 +134,36 @@ I have spend a lot of time making sure this website is fully responsive on a num
 
 ## Deployment
 
-The live link can be found here - https://tommahawk65.github.io/Milestone1/
+The project was developed using [GitPod](https://gitpod.io/) and pushed to [GitHub](https://github.com/):
+
+To deploy the page to **GitHub Pages** these steps were taken:
+1. Log in to **GitHub**.
+2. Select https://github.com/Tommahawk65.
+3. Click Settings and scroll down to **Pages**.
+4. Under **Source** select **None** and then **Master Branch**.
+5. The site automatically refreshes and the website deployed providing the link: https://tommahawk65.github.io/MS1-resub-/index.html
+
+
+### How to contribute to the site
+
+1. Navigate to [GitHub](https://github.com/) and log in
+2. Locate my [Repository](https://github.com/Tommahawk65/MS1-resub-)
+3. On the right side of the screen click Fork
+4. This creates a copy in your own repository to make changes in [GitPod](https://gitpod.io/)
+5. Once finished with changes add, commit and push to your own [GitHub](https://github.com/)
+6. Click Pull Requests and select "New Pull Request" button.
+
+
+### How to run the project locally
+
+To clone this project from GitHub follow the instructions taken from [GitHub Docs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository):
+1. Navigate to my [GitHub Repository](https://github.com/Tommahawk65/MS1-resub-)
+2. Above the files click the green Download Code link.
+3. To clone using HTTPS click the clipboard symbol under "Clone with HTTPS". To clone using SSH key click Use SSH then click the clipboard symbol. To clone using GitHub CLI select Use GitHub CLI and click the clipboard symbol. 
+4. Open Git Bash
+5. Change the working directory to the location you want the cloned directory to be.
+6. Type 'git clone' and paste the url copied from step 3. 
+7. Press 'enter' to create your clone.
 
 ## Credits 
 
