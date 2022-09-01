@@ -114,7 +114,7 @@ The website focuses on a black and white aesthetic. I chose this due to the larg
 
   - The footer is valuable to the user as it encourages them to keep connected via social media.
 
-![Footer](/assets/images/footer.png?raw=true)
+![Footer](/assets/images/README-Images/page-footer.png)
 
 - __Home Page__
 
