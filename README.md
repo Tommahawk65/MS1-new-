@@ -277,6 +277,9 @@ To clone this project from GitHub follow the instructions taken from [GitHub Doc
 - The back text outline feature was taken from stack overflow (see style.css) (https://stackoverflow.com/questions/14310154/how-do-i-set-a-background-color-for-the-width-of-text-not-the-width-of-the-enti)
 
 ### Media
-- The navbar logo image was taken from (https://i.redd.it/ujaqgg3dya021.jpg)
+- The site background image was taken from (https://wallpaperset.com/the-1975-wallpapers)
+- The navbar logo image was taken from (https://www.liblogo.com/lib/the-1975-logo.html)
 - The images of the band on  the home page were taken from (https://www.thefader.com/2019/09/12/the-1975-notes-on-a-conditional-form-interview)
+- The homepage banner image was taken from (https://spiderheadstuff.tumblr.com/post/187818479232/the-1975-headers)
+- The music banner image was taken from (https://www.facebook.com/photo/?fbid=806618812701252&set=a.343250637155742)
 - I used Spotify and YouTube to embed the media content (https://vimeo.com/77177308)(https://open.spotify.com/playlist/2XJHmI31uAsaSQTjPqcAPk?si=4860823d6a104d68)
