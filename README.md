@@ -47,30 +47,30 @@ All images will be given an Alt text alternative for accessibility reasons. This
 ### Wireframes Full View
 
 #### Home Page
-![Alt text](/assets/images/Wireframes/desktop-1.png "Home Page")
+![Home Page](/assets/images/Wireframes/desktop-1.png "Home Page")
 
 #### Music Page
-![Alt text](/assets/images/Wireframes/desktop-2.png "Music Page")
+![Music Page](/assets/images/Wireframes/desktop-2.png "Music Page")
 
 #### Tour Dates Page
-![Alt text](/assets/images/Wireframes/desktop-3.png "Tour Dates Page")
+![Tour Dates Page](/assets/images/Wireframes/desktop-3.png "Tour Dates Page")
 
 #### Contact Page
-![Alt text](/assets/images/Wireframes/desktop-4.png "Contact Page")
+![Contact Page](/assets/images/Wireframes/desktop-4.png "Contact Page")
 
 ### Wireframes Mobile View
 
 #### Home Page
-![Alt text](/assets/images/Wireframes/mobile-1.png "Home Page")
+![Home Page](/assets/images/Wireframes/mobile-1.png "Home Page")
 
 #### Music Page
-![Alt text](/assets/images/Wireframes/mobile-2.png "Music Page")
+![Music Page](/assets/images/Wireframes/mobile-2.png "Music Page")
 
 #### Tour Dates Page
-![Alt text](/assets/images/Wireframes/mobile-3.png "Tour Dates Page")
+![Tour Dates Page](/assets/images/Wireframes/mobile-3.png "Tour Dates Page")
 
 #### Contact Page
-![Alt text](/assets/images/Wireframes/mobile-4.png "Contact Page")
+![Contact Page](/assets/images/Wireframes/mobile-4.png "Contact Page")
 
 ## Features 
 
@@ -192,7 +192,7 @@ All images will be given an Alt text alternative for accessibility reasons. This
 
 - All internal links and buttons checked
 
-- Media checked to ensure it plays when requested
+- Media checked to ensure it plays when requested (vimeo and spotify)
 
 - Images all show and display at correct sizes
 
