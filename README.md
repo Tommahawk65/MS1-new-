@@ -17,19 +17,19 @@ The band are interested in increasing their fan base and selling more tickets to
 ### User Stories
 - As a user visiting the site for the first time:
   - I want to be able to quickly understand the purpose of the site.
-  - I want to click the navigation links to be taken to the correct section and also back to home for a better user experience.
+  - I want to click the navigation links and to be taken to the correct section and also back to home for a better user experience.
   - I want the page to be in a predictable layout so that I can navigate it easily.  
   - I want to be able to hear a selection of the bands music.  
   - I want the websites design to match with the bands.
   - I want to be able to view information on tours and upcoming events.
   - I want to have a way of contacting the site owner/band for any specific questions/queries.
-  - I want to have be able to view the page on multiple devices and have it scale properly.
+  - I want to be able to view the page on multiple devices and have it scale properly.
 
 ### Design choices
 I chose a modern minimalist style to reflect the music of the band and to appeal to a younger audience.
 
 #### Fonts
-I did research on the fonts used in the 1975 band promo material. most of the fonts were custom made, however I found googles Questrial font family closely resembled the look of the custom fonts and suited my websites theme well.
+I did research on the fonts used in the 1975 band promo material. Most of the fonts were custom made, however I found Googles Questrial font family closely resembled the look of the custom fonts and suited my websites theme well.
 
 #### Questrial font preview
 ![Questrial font preview](assets/images/README-Images/font-preview.png) 
@@ -108,7 +108,7 @@ All images will be given an Alt text alternative for accessibility reasons. This
 
 - __Navigation Bar__
 
-  - Featured on all four pages, the full responsive navigation bar includes links to the Home page, Music, Tour Dates and Contact page and is identical on each page to allow for easy navigation.
+  - Featured on all four pages, the fully responsive navigation bar includes links to the Home page, Music, Tour Dates and Contact page and is identical on each page to allow for easy navigation.
 
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
@@ -142,6 +142,8 @@ All images will be given an Alt text alternative for accessibility reasons. This
 
   - This page allows users to send a question to band, it also allows the band to receive emails from potential customers for marketing.
 
+  - The form has validation functionality to enure the user sends the correct information. No empty felids are allowed and the user must submit a valid email address with an @ symbol.
+
 ## Testing 
 
 ### User Stories Testing
@@ -152,9 +154,9 @@ All images will be given an Alt text alternative for accessibility reasons. This
 
       On loading the page you are immediately shown the name of the band in the navbar and the band members images.
 
-  2. I want to click the navigation links to be taken to the correct section and also back to home for a better user experience.
+  2. I want to click the navigation links and to be taken to the correct section and also back to home for a better user experience.
 
-      Navbar clearly shows all available paged and allows the user to return to the homepage.
+      Navbar clearly shows all available pages and allows the user to return to the homepage. The page you are currently on is also underlined in the nav bar for added ease of navigation.
       ![Navbar](/assets/images/README-Images/user-story-navbar.png)
 
   3. I want the page to be in a predictable layout so that I can navigate it easily.
@@ -180,9 +182,10 @@ All images will be given an Alt text alternative for accessibility reasons. This
       The Contact page allows users to directly message the site owner. The form has validation functionality to ensure the correct information is given. 
       ![Contact Page](/assets/images/README-Images/contact-page.png)
 
-  8. I want to have be able to view the page on multiple devices and have it scale properly.
+  8. I want to be able to view the page on multiple devices and have it scale properly.
 
       The site has been designed and tested to scale well on all devices. Both Chrome dev tools and manual testing were used to check the performed as intended.
+      ![Mobile Home Page](/assets/images/README-Images/mobile-hompage.png)
 
 
 ### Manual Testing
@@ -190,6 +193,8 @@ All images will be given an Alt text alternative for accessibility reasons. This
 - All internal links and buttons checked
 
 - Media checked to ensure it plays when requested
+
+- Images all show and display at correct sizes
 
 - Chrome devtools used to check on multiple device sizes
 
@@ -211,7 +216,11 @@ All images will be given an Alt text alternative for accessibility reasons. This
 
 - Some text items became hard to read when overlapping the background image. This was a screen size dependant issue but I decided to create black backgrounds on all text to make it more readable.
 
-![Issue 3](/assets/images/README-Images/issue3.png)
+#### Before
+![Issue 3 Before](/assets/images/README-Images/issue3.png)
+
+#### After
+![Issue 3 After](/assets/images/README-Images/issue3-after.png)
 
 ### Lighthouse Testing
 Passed tests with a green score. Note - one test did give a yellow score for best practices which is explained below.
@@ -249,7 +258,7 @@ Note - The lower score for best practices here is for the banner image resolutio
   ![CSS Test 1](/assets/images/Validator/css-validator.png)
 
 ## Bugs
-- On some Iphones the background image scaling does not behave as expected and causes it to be larger than normal, from searching online and my own efforts it was unclear why this happened and no apparent solution was clear. As this is not a site breaking bug it I decided to leave it.
+- On some Iphones the background image scaling does not behave as expected and causes it to be larger than normal, from searching online and my own efforts it was unclear why this happened and no apparent solution was found. As this is not a site breaking bug it I decided to leave it.
 
 
 ## Deployment

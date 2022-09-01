@@ -10,7 +10,7 @@ body {
     background-size: cover;
     overflow-x: hidden !important;
     font-family: 'Questrial', sans-serif;
-  }
+}
 
 /* Taken from https://stackoverflow.com/questions/14310154/how-do-i-set-a-background-color-for-the-width-of-text-not-the-width-of-the-enti*/ 
 
@@ -23,7 +23,7 @@ h2 span, h6 span, .black-text-background {
 
 nav {
   background-color: transparent;  
-  }
+}
 
 hr {
   background-color:#F0F4F5;
@@ -31,11 +31,11 @@ hr {
   height: 4px;
   box-shadow: 0 0 10px 5px #5D5C55; 
   width: auto;
-  }
+}
 
 .band-logo {
   max-width: 180px;
-  }
+}
 
 .nav-button {
   border-radius: 5px;
@@ -46,15 +46,15 @@ hr {
   background-color: #111111ed;
   margin-left: 3.3rem;
   margin-right: 3.3rem;
-  }
+}
 
 .active{
   text-decoration: underline;
-  }
+}
 
 .navbar-nav .nav-button .nav-link:hover {
   background-color: #5D5C55;
-  }
+}
 
 /* --------------------------------------------------------------------------------------Media Queries for Mobile Navbar  */  
 
@@ -173,13 +173,13 @@ and (min-width : 414px) {
     height: 26vh!important;
   }
 }
-  @media only screen 
-  and (min-width : 750px) {
-    .vimeo{
-      height: 60vh!important;
-    }
-  
+
+@media only screen 
+and (min-width : 750px) {
+  .vimeo{
+    height: 60vh!important;
   }
+}
 
 @media only screen 
 and (min-width : 991px) {
@@ -187,12 +187,14 @@ and (min-width : 991px) {
     height: 35vh!important;
   }
 }
+
   @media only screen 
   and (min-width : 1100px) {
     .vimeo{
       height: 45vh!important;
     }
   }
+
   @media only screen 
   and (min-width : 1300px) {
       .vimeo{
@@ -216,8 +218,6 @@ and (min-width : 991px) {
 
 .ticket-row {
   margin-bottom: 30px;
-  
-
 }
 
 .date-box, .city-box {
