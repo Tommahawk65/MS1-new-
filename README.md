@@ -94,6 +94,10 @@ All images will be given an Alt text alternative for accessibility reasons. This
 
 - [Figma](https://www.figma.com/) - Figma is used to create the mockup designs for the project.
 
+- [Coolors](https://coolors.co/) - Was used to create a palette image for the README.
+
+- [Am I Responsive](https://ui.dev/amiresponsive) - Was used to create a screenshot of the finished website for the README.
+
 - [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/open) - Used to detect problems and test responsiveness.
 
 - [W3C Markup Validation Service](https://validator.w3.org/) - The W3C Markup Validation Service is used to check whether there were any errors in the HTML5 code. 
@@ -132,7 +136,7 @@ All images will be given an Alt text alternative for accessibility reasons. This
 
 - __The Tour Dates Page__
 
-  - This allows users to see all the tour dates of the band and plan for when they come to their local area. Currently buy tickets buttons don't function due to the limits of this project. However on a fully developed site they will link to a ticket sale partner site.
+  - This allows users to see all the tour dates of the band and plan for when they come to their local area. Currently the buy tickets buttons don't function due to the limits of this project. However on a fully developed site they will link to a ticket sale partner site.
 
 - __The Contact Page__
 
@@ -197,7 +201,7 @@ All images will be given an Alt text alternative for accessibility reasons. This
 
 #### Issues Found During Manual Testing
 
-- Background image not displaying on github pages. This was due to the image link mot having the correct location to display properly on Github pages. This was a simple fix of editing the file path
+- Background image not displaying on Github pages. This was due to the image link not having the correct file location to display properly on Github pages. This was a simple fix of editing the file path.
 
 ![Issue 1](/assets/images/README-Images/issue1.png)
 
@@ -290,3 +294,10 @@ To clone this project from GitHub follow the instructions taken from [GitHub Doc
 - The homepage banner image was taken from (https://spiderheadstuff.tumblr.com/post/187818479232/the-1975-headers)
 - The music banner image was taken from (https://www.facebook.com/photo/?fbid=806618812701252&set=a.343250637155742)
 - I used Spotify and YouTube to embed the media content (https://vimeo.com/77177308)(https://open.spotify.com/playlist/2XJHmI31uAsaSQTjPqcAPk?si=4860823d6a104d68)
+
+###  Acknowledgements
+
+- My Mentor for continuous helpful feedback.
+
+- Tutor support at Code Institute for their support.
+
