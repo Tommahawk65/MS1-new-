@@ -164,7 +164,7 @@ All images will be given an Alt text alternative for accessibility reasons. This
   4. I want to be able to hear a selection of the bands music.  
 
       The music page contains an embedded video and music player to allow the user to access this while staying to the site.
-      ![Music Page](/assets/images/Wireframes/desktop-2.png)
+      ![Music Page](/assets/images/README-Images/music-page.png)
 
   5. I want the websites design to match with the bands.
 
@@ -173,12 +173,12 @@ All images will be given an Alt text alternative for accessibility reasons. This
   6. I want to be able to view information on tours and upcoming events.
 
       The Tour Page gives all this information, on the commercial version the buy now links would direct the user to the appropriate retailer.
-      ![Tour Page](/assets/images/Wireframes/desktop-3.png)
+      ![Tour Page](/assets/images/README-Images/tour-page.png)
 
   7. I want to have a way of contacting the site owner/band for any specific questions/queries.
 
       The Contact page allows users to directly message the site owner. The form has validation functionality to ensure the correct information is given. 
-      ![Contact Page](/assets/images/Wireframes/desktop-4.png)
+      ![Contact Page](/assets/images/README-Images/contact-page.png)
 
   8. I want to have be able to view the page on multiple devices and have it scale properly.
 
