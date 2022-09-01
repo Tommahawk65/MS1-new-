@@ -7,7 +7,6 @@
 ## UX
 
 ### User Stories
-
 - As a user visiting the site for the first time:
   - I want to be able to quickly understand the purpose of the site.
   - I want to click the navigation links to be taken to the correct section and also back to home for a better user experience.
@@ -17,7 +16,6 @@
   - I want to be able to view information on tours and upcoming events.
   - I want to have a way of contacting the site owner/band for any specific questions/queries.
   - I want to have be able to view the page on multiple devices and have it scale properly.
-
 
 ### Project Goals
 
@@ -38,7 +36,6 @@ I did research on the fonts used in the 1975 band promo material. most of the fo
 
 #### Colours
 The website focuses on a black and white aesthetic. I chose this due to the large amount of material the band produce in this style. I felt the source material would match in with this design well and feel like it works with the bands image.
-
 
 ## Wireframes
 
@@ -190,6 +187,20 @@ The website focuses on a black and white aesthetic. I chose this due to the larg
 - Tested on Chrome and Safari browsers
 
 - Tested on Macbook Pro, Macbook Air, Iphone 13 pro, Ipad, Samsung Note2 to ensure compatibility.
+
+#### Issues Found During Manual Testing
+
+- Background image not displaying on github pages. This was due to the image link mot having the correct location to display properly on Github pages. This was a simple fix of editing the file path
+
+![Issue 1](/assets/images/README-Images/issue1.png)
+
+- Background image did not scale correctly on some mobile devices, this issue seemed to be intermittent and remains unfixed (see Bugs section)
+
+![Issue 2](/assets/images/README-Images/issue2.png)
+
+- Some text items became hard to read when overlapping the background image. This was a screen size dependant issue but I decided to create black backgrounds on all text to make it more readable.
+
+![Issue 3](/assets/images/README-Images/issue3.png)
 
 ### Lighthouse Testing
 Passed tests with a green score. Note - one test did give a yellow score for best practices which is explained below.
