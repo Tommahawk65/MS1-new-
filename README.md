@@ -25,17 +25,26 @@
 The site's users are fans and potential fans who wish to learn more about the band's history and the band members, listen to their music and possibly book them for shows.
 
 #### Site owner's goal:
-The band are interested in increasing their fanbase and selling more tickets to gigs.
+The band are interested in increasing their fan base and selling more tickets to gigs.
 
- 
 ### Design choices
+I chose a modern minimalist style to reflect the music of the band and to appeal to a younger audience.
 
-I chose a modern minimalistic style to reflect the music of the band and to appeal to a younger audience.
+#### Fonts
+I did research on the fonts used in the 1975 band promo material. most of the fonts were custom made, however I found googles Questrial font family closely resembled the look of the custom fonts and suited my websites theme well.
+
+#### Questrial font preview
+![Questrial font preview](assets/images/README-Images/font-preview.png) 
+
+#### Colours
+The website focuses on a black and white aesthetic. I chose this due to the large amount of material the band produce in this style. I felt the source material would match in with this design well and feel like it works with the bands image.
+
+
+## Wireframes
 
 ### Wireframes Full View
 
 #### Home Page
-
 ![Alt text](/assets/images/Wireframes/desktop-1.png "Home Page")
 
 #### Music Page
@@ -50,7 +59,6 @@ I chose a modern minimalistic style to reflect the music of the band and to appe
 ### Wireframes Mobile View
 
 #### Home Page
-
 ![Alt text](/assets/images/Wireframes/mobile-1.png "Home Page")
 
 #### Music Page
@@ -67,18 +75,15 @@ I chose a modern minimalistic style to reflect the music of the band and to appe
 ### Technologies
 
 #### Programming languages 
- 
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML) - the project used HTML to define structure and layout of the web page. 
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS) - the project used CSS style sheets to specify style of the web document elements; 
  
 #### Frameworks & Extensions 
- 
 - [Bootstrap v5.2](https://getbootstrap.com/) – Bootstrap is a web framework that focuses on simplifying the development of informative web pages. 
 
 - [Font Awesome](https://fontawesome.com/v4.7.0/) - Font Awesome icons were used for the footer social links for the website. 
 
 #### **Tools**
-
 - [GitHub](https://github.com/) - GitHub is a global company that provides hosting for software development version control using Git. 
 
 - [Gitpod](https://gitpod.io/workspaces/) - One-click ready-to-code development environments for GitHub. 
@@ -101,7 +106,7 @@ I chose a modern minimalistic style to reflect the music of the band and to appe
 
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](/assets/images/nav-bar.png?raw=true)
+![Nav Bar](/assets//images/README-Images/user-story-navbar.png)
 
 - __The Footer__ 
 
@@ -117,7 +122,6 @@ I chose a modern minimalistic style to reflect the music of the band and to appe
 
   - There is also some basic info to give visitors some simple background information.
 
-  
 - __Music__
 
   - The music page will provide the user with supporting video/audio to see what the bands looks and sounds like. 
@@ -188,11 +192,9 @@ I chose a modern minimalistic style to reflect the music of the band and to appe
 - Tested on Macbook Pro, Macbook Air, Iphone 13 pro, Ipad, Samsung Note2 to ensure compatibility.
 
 ### Lighthouse Testing
-
 Passed tests with a green score. Note - one test did give a yellow score for best practices which is explained below.
 
 #### Desktop
-
 ![Desktop Lighthouse Test 1](/assets/images/Lighthouse/lighthouse-desktop1.png)
 
 ![Desktop Lighthouse Test 2](/assets/images/Lighthouse/lighthouse-desktop2.png)
@@ -204,7 +206,6 @@ Note - The lower score for best practices here is for the banner image resolutio
 ![Desktop Lighthouse Test 4](/assets/images/Lighthouse/lighthouse-desktop4.png)
 
 #### Mobile
-
 ![Mobile Lighthouse Test 1](/assets/images/Lighthouse/lighthouse-mobile1.png)
 
 ![Mobile Lighthouse Test 2](/assets/images/Lighthouse/lighthouse-mobile2.png)
@@ -225,8 +226,11 @@ Note - The lower score for best practices here is for the banner image resolutio
   - No errors were found when passing through the official [(Jigsaw) validator]
   ![CSS Test 1](/assets/images/Validator/css-validator.png)
 
-## Deployment
+## Bugs
+- On some Iphones the background image scaling does not behave as expected and causes it to be larger than normal, from searching online and my own efforts it was unclear why this happened and no apparent solution was clear. As this is not a site breaking bug it I decided to leave it.
 
+
+## Deployment
 The project was developed using [GitPod](https://gitpod.io/) and pushed to [GitHub](https://github.com/):
 
 To deploy the page to **GitHub Pages** these steps were taken:
@@ -238,7 +242,6 @@ To deploy the page to **GitHub Pages** these steps were taken:
 
 
 ### How to contribute to the site
-
 1. Navigate to [GitHub](https://github.com/) and log in
 2. Locate my [Repository](https://github.com/Tommahawk65/MS1-resub-)
 3. On the right side of the screen click Fork
@@ -248,7 +251,6 @@ To deploy the page to **GitHub Pages** these steps were taken:
 
 
 ### How to run the project locally
-
 To clone this project from GitHub follow the instructions taken from [GitHub Docs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository):
 1. Navigate to my [GitHub Repository](https://github.com/Tommahawk65/MS1-resub-)
 2. Above the files click the green Download Code link.
@@ -259,13 +261,11 @@ To clone this project from GitHub follow the instructions taken from [GitHub Doc
 7. Press 'enter' to create your clone.
 
 ## Credits 
-
 - The text for the Home page was taken from Wikipedia https://en.wikipedia.org/wiki/The_1975
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-- The box shadow effect on the images and buttons was created by Tiffany Rayside (https://codepen.io/tmrDevelops/pen/VeRvKX)
+- The back text outline feature was taken from stack overflow (see style.css) (https://stackoverflow.com/questions/14310154/how-do-i-set-a-background-color-for-the-width-of-text-not-the-width-of-the-enti)
 
 ### Media
-
-- The header hero image was taken from (https://i.redd.it/ujaqgg3dya021.jpg)
+- The navbar logo image was taken from (https://i.redd.it/ujaqgg3dya021.jpg)
 - The images of the band on  the home page were taken from (https://www.thefader.com/2019/09/12/the-1975-notes-on-a-conditional-form-interview)
 - I used Spotify and YouTube to embed the media content (https://vimeo.com/77177308)(https://open.spotify.com/playlist/2XJHmI31uAsaSQTjPqcAPk?si=4860823d6a104d68)
