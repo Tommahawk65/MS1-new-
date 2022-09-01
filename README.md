@@ -6,6 +6,14 @@
 
 ## UX
 
+### Project Goals
+
+#### External user’s goal:
+The site's users are fans and potential fans who wish to learn more about the band's history and the band members, listen to their music and possibly book them for shows.
+
+#### Site owner's goal:
+The band are interested in increasing their fan base and selling more tickets to gigs. They also want to have the ability to communicate directly to site visitors. The site should display a selection of their music for visitors.
+
 ### User Stories
 - As a user visiting the site for the first time:
   - I want to be able to quickly understand the purpose of the site.
@@ -16,14 +24,6 @@
   - I want to be able to view information on tours and upcoming events.
   - I want to have a way of contacting the site owner/band for any specific questions/queries.
   - I want to have be able to view the page on multiple devices and have it scale properly.
-
-### Project Goals
-
-#### External user’s goal:
-The site's users are fans and potential fans who wish to learn more about the band's history and the band members, listen to their music and possibly book them for shows.
-
-#### Site owner's goal:
-The band are interested in increasing their fan base and selling more tickets to gigs.
 
 ### Design choices
 I chose a modern minimalist style to reflect the music of the band and to appeal to a younger audience.
@@ -36,6 +36,11 @@ I did research on the fonts used in the 1975 band promo material. most of the fo
 
 #### Colours
 The website focuses on a black and white aesthetic. I chose this due to the large amount of material the band produce in this style. I felt the source material would match in with this design well and feel like it works with the bands image.
+
+![Colour Palette](assets/images/README-Images/colour-palette.png) 
+
+#### Alt text
+All images will be given an Alt text alternative for accessibility reasons. This is also useful as if for some reason the images wont load, a brief text description will show in its place.
 
 ## Wireframes
 
@@ -99,7 +104,7 @@ The website focuses on a black and white aesthetic. I chose this due to the larg
 
 - __Navigation Bar__
 
-  - Featured on all four pages, the full responsive navigation bar includes links to the Home page, Music, Tour Dates and Contact page and is identical in each page to allow for easy navigation.
+  - Featured on all four pages, the full responsive navigation bar includes links to the Home page, Music, Tour Dates and Contact page and is identical on each page to allow for easy navigation.
 
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
@@ -109,7 +114,7 @@ The website focuses on a black and white aesthetic. I chose this due to the larg
 
   - The footer section includes links to the relevant social media sites for the band. The links will open to a new tab to allow easy navigation for the user. 
 
-  - The footer is valuable to the user as it encourages them to keep connected via social media.
+  - The footer is valuable to the user as it encourages them to keep connected via social media. Having the links open on a new tab keeps the user on the website as opposed to being directed away by the link.
 
 ![Footer](/assets/images/README-Images/page-footer.png)
 
@@ -117,17 +122,17 @@ The website focuses on a black and white aesthetic. I chose this due to the larg
 
   - The home page greets new visitors with a collection of band member photos to identify the members.
 
-  - There is also some basic info to give visitors some simple background information.
+  - There is also some basic info to give visitors some simple background information on the band.
 
 - __Music__
 
-  - The music page will provide the user with supporting video/audio to see what the bands looks and sounds like. 
+  - The music page provides the user with supporting video/audio to see what the bands looks and sounds like. 
 
   - This section is valuable to the user as they will be able see and hear the bands music videos and full back catalogue.
 
 - __The Tour Dates Page__
 
-  - This page will allow users to see all the tour dates of the band and plan for when they come to their local area.
+  - This allows users to see all the tour dates of the band and plan for when they come to their local area. Currently buy tickets buttons don't function due to the limits of this project. However on a fully developed site they will link to a ticket sale partner site.
 
 - __The Contact Page__
 
@@ -185,6 +190,8 @@ The website focuses on a black and white aesthetic. I chose this due to the larg
 - Chrome devtools used to check on multiple device sizes
 
 - Tested on Chrome and Safari browsers
+
+- Checked to ensure deployed version matches the development environment site on mobile and desktop.
 
 - Tested on Macbook Pro, Macbook Air, Iphone 13 pro, Ipad, Samsung Note2 to ensure compatibility.
 
