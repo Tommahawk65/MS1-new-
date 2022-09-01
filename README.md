@@ -217,8 +217,13 @@ Note - The lower score for best practices here is for the banner image resolutio
 
 - HTML
   - No errors were returned when passing through the official [W3C validator]
+  ![HTML Test 1](/assets/images/Validator/html-validator1.png)
+  ![HTML Test 2](/assets/images/Validator/html-validator2.png)
+  ![HTML Test 3](/assets/images/Validator/html-validator3.png)
+  ![HTML Test 4](/assets/images/Validator/html-validator4.png)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator]
+  ![CSS Test 1](/assets/images/Validator/css-validator.png)
 
 ## Deployment
 

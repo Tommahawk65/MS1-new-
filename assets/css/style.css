@@ -12,6 +12,13 @@ body {
     font-family: 'Questrial', sans-serif;
   }
 
+/* Taken from https://stackoverflow.com/questions/14310154/how-do-i-set-a-background-color-for-the-width-of-text-not-the-width-of-the-enti*/ 
+
+h2 span, h6 span, .black-text-background {
+  background-color: #111111ed;
+  border-radius: 3px;
+}
+
 /* --------------------------------------------------------------------------------------Nav Bar */      
 
 nav {
@@ -36,6 +43,7 @@ hr {
   width: 83px;
   height: 100%;
   box-shadow: 0 0 10px 5px #5D5C55;
+  background-color: #111111ed;
   margin-left: 3.3rem;
   margin-right: 3.3rem;
   }
@@ -125,6 +133,7 @@ and (max-width : 991px) {
   border-radius: 5px;
   border: solid 5px #f0f4f5ea;
   box-shadow: 0 0 10px 5px #5D5C55;
+  background-color: #111111ed;
 }
 
 /* --------------------------------------------------------------------------------------Homepage Band Banner */   
@@ -207,6 +216,8 @@ and (min-width : 991px) {
 
 .ticket-row {
   margin-bottom: 30px;
+  
+
 }
 
 .date-box, .city-box {
@@ -218,10 +229,12 @@ and (min-width : 991px) {
 .contact-form {
   margin-left: 5rem;
   margin-right: 5rem;
+  
 }
 
 .email, .password {
   width: 80%;
+  
 }
 
 /* --------------------------------------------------------------------------------------Media Queries For Contact Form To Give Proper Sizing On All Screens*/ 
