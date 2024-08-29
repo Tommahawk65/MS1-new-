@@ -2,7 +2,7 @@
 
 ![Responsive Mockup of site](assets/images/README-Images/website-preview.png) 
 
-[Link to Live Website](https://tommahawk65.github.io/MS1-resub-/) 
+[Link to Live Website](https://tommahawk65.github.io/MS1-new-/)
 
 ## UX
 
